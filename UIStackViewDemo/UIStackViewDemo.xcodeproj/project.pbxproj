@@ -207,6 +207,7 @@
 				TargetAttributes = {
 					D4F004841DAA3E23004BF0CE = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = Z255ASRC67;
 					};
 					D4F004981DAA3E23004BF0CE = {
 						CreatedOnToolsVersion = 7.1;
@@ -413,6 +414,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UIStackViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaoqinghua.UIStackViewDemo;
@@ -424,6 +426,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = UIStackViewDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.gaoqinghua.UIStackViewDemo;
@@ -498,6 +501,7 @@
 				D4F004AF1DAA3E23004BF0CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4F004B01DAA3E23004BF0CE /* Build configuration list for PBXNativeTarget "UIStackViewDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +510,7 @@
 				D4F004B21DAA3E23004BF0CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D4F004B31DAA3E23004BF0CE /* Build configuration list for PBXNativeTarget "UIStackViewDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +519,7 @@
 				D4F004B51DAA3E23004BF0CE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

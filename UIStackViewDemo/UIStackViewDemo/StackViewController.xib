@@ -196,7 +196,6 @@
                         </stepper>
                     </subviews>
                     <animations/>
-                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="trailing" secondItem="lK4-tD-yzm" secondAttribute="trailing" constant="8" id="3gQ-VZ-vL2"/>
                         <constraint firstItem="lca-TR-0vB" firstAttribute="leading" secondItem="iJJ-4e-FtU" secondAttribute="leading" constant="8" id="6WG-SB-T5m"/>
@@ -236,26 +235,38 @@
                         <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jbT-ul-YJR">
                             <rect key="frame" x="0.0" y="0.0" width="584" height="100"/>
                             <subviews>
-                                <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djg-uC-ygW">
-                                    <rect key="frame" x="0.0" y="33" width="524" height="34"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djg-uC-ygW" userLabel="one">
+                                    <rect key="frame" x="0.0" y="25" width="100" height="50"/>
                                     <animations/>
                                     <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="5vF-wN-ngI"/>
+                                        <constraint firstAttribute="width" constant="100" id="Kgp-t2-rBF"/>
+                                    </constraints>
                                     <connections>
                                         <action selector="oneTapped:" destination="-1" eventType="touchUpInside" id="heC-W9-zrV"/>
                                     </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5XL-h0-1Ny">
-                                    <rect key="frame" x="524" y="33" width="30" height="34"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5XL-h0-1Ny" userLabel="two">
+                                    <rect key="frame" x="100" y="10" width="150" height="80"/>
                                     <animations/>
                                     <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="80" id="qJL-Rv-jUu"/>
+                                        <constraint firstAttribute="width" constant="150" id="ylc-TI-97k"/>
+                                    </constraints>
                                     <connections>
                                         <action selector="twoTapped:" destination="-1" eventType="touchUpInside" id="KKR-t1-p45"/>
                                     </connections>
                                 </button>
-                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8iI-Vx-ct7">
-                                    <rect key="frame" x="554" y="33" width="30" height="34"/>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8iI-Vx-ct7" userLabel="three">
+                                    <rect key="frame" x="250" y="25" width="334" height="50"/>
                                     <animations/>
                                     <color key="backgroundColor" red="0.60000002384185791" green="0.40000000596046448" blue="0.20000000298023224" alpha="1" colorSpace="calibratedRGB"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="50" id="MUm-O6-hef"/>
+                                        <constraint firstAttribute="width" constant="100" id="yiN-Nk-y2f"/>
+                                    </constraints>
                                     <connections>
                                         <action selector="threeTapped:" destination="-1" eventType="touchUpInside" id="iQy-4L-ra0"/>
                                     </connections>
