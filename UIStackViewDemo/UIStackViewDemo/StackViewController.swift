@@ -73,34 +73,52 @@ class StackViewController: UIViewController {
         }
     }
     @IBAction func alignmentFill(sender: UIButton) {
-        stackView.alignment = .Fill
+        UIView.animateWithDuration(0.5) { () -> Void in
+            self.stackView.alignment = .Fill
+        }
     }
     
     @IBAction func alignmentCenter(sender: UIButton) {
-        stackView.alignment = .Center
+        UIView.animateWithDuration(0.5) { () -> Void in
+            self.stackView.alignment = .Center
+        }
     }
     @IBAction func alignmentTrailing(sender: UIButton) {
-        stackView.alignment = .Trailing
+        UIView.animateWithDuration(0.5) { () -> Void in
+            self.stackView.alignment = .Trailing
+        }
     }
     
     @IBAction func alignmentLeading(sender: UIButton) {
-        stackView.alignment = .Leading
+        UIView.animateWithDuration(0.5) { () -> Void in
+            self.stackView.alignment = .Leading
+        }
     }
     @IBAction func distributionFill(sender: UIButton) {
-        stackView.distribution = .Fill
+        UIView.animateWithDuration(0.5) { () -> Void in
+            self.stackView.distribution = .Fill
+        }
     }
     @IBAction func distributionFillEqually(sender: UIButton) {
-        stackView.distribution = .FillEqually
+        UIView.animateWithDuration(0.5) { () -> Void in
+            self.stackView.distribution = .FillEqually
+        }
     }
     
     @IBAction func distributionFillProportionally(sender: UIButton) {
-        stackView.distribution = .FillProportionally
+        UIView.animateWithDuration(0.5) { () -> Void in
+            self.stackView.distribution = .FillProportionally
+        }
     }
     @IBAction func distributionEqualSpacing(sender: UIButton) {
-        stackView.distribution = .EqualSpacing
+        UIView.animateWithDuration(0.5) { () -> Void in
+            self.stackView.distribution = .EqualSpacing
+        }
     }
     
     @IBAction func distributionEqualCentering(sender: UIButton) {
-        stackView.distribution = .EqualCentering
+        UIView.animateWithDuration(0.5) { () -> Void in
+            self.stackView.distribution = .EqualCentering
+        }
     }
 }
