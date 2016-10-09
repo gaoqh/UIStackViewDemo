@@ -28,15 +28,21 @@ class StackViewController: UIViewController {
     }
 
     @IBAction func oneTapped(sender: UIButton) {
-        sender.hidden = true
+        UIView.animateWithDuration(0.5) { () -> Void in
+            sender.hidden = true
+        }
     }
 
     @IBAction func twoTapped(sender: UIButton) {
-        sender.hidden = true
+        UIView.animateWithDuration(0.5) { () -> Void in
+            sender.hidden = true
+        }
     }
     
     @IBAction func threeTapped(sender: UIButton) {
-        sender.hidden = true
+        UIView.animateWithDuration(0.5) { () -> Void in
+            sender.hidden = true
+        }
     }
     
     @IBAction func verticalClick(sender: UIButton) {
@@ -52,14 +58,18 @@ class StackViewController: UIViewController {
     }
     
     @IBAction func hideAll(sender: UIButton) {
-        for subView in stackView.subviews {
-            subView.hidden = true
+        UIView.animateWithDuration(0.5) { () -> Void in
+            for subView in self.stackView.subviews {
+                subView.hidden = true
+            }
         }
     }
     
     @IBAction func showAll(sender: UIButton) {
-        for subView in stackView.subviews {
-            subView.hidden = false
+        UIView.animateWithDuration(0.5) { () -> Void in
+            for subView in self.stackView.subviews {
+                subView.hidden = false
+            }
         }
     }
     @IBAction func alignmentFill(sender: UIButton) {
